@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="value_progress_disabled_color">#EDEDED</color>
+    <color name="value_progress_shadow_color">#CCCAC8C8</color>
+    <color name="value_progress_text_color">#535353</color>
+    <color name="value_progress_color">#52D99F</color>
+    <color name="value_progress_background_color">@android:color/white</color>
+</resources>

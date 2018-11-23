@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ValueProgress">
+        <item name="progress_color">@color/value_progress_color</item>
+        <item name="progress_text_color">@color/value_progress_text_color</item>
+        <item name="progress_disabled_color">@color/value_progress_disabled_color</item>
+        <item name="progress_shadow_color">@color/value_progress_shadow_color</item>
+        <item name="progress_background_color">@color/value_progress_background_color</item>
+        <item name="progress_width">@dimen/value_progress_width</item>
+        <item name="progress_text_size">@dimen/value_progress_text_size</item>
+        <item name="progress_max_value">@integer/value_progress_max_value</item>
+        <item name="progress_value_symbol">@string/value_progress_value_symbol</item>
+    </style>
+</resources>

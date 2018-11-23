@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="value_progress_text_size">13sp</dimen>
+    <dimen name="value_progress_width">3dp</dimen>
+    <integer name="value_progress_max_value">100</integer>
+</resources>

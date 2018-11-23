@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ValueProgress">
+        <attr name="progress_color" format="color"/>
+        <attr name="progress_width" format="dimension"/>
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="progress_disabled_color" format="color"/>
+        <attr name="progress_shadow_color" format="color"/>
+        <attr name="progress_background_color" format="color"/>
+        <attr name="progress_max_value" format="float"/>
+        <attr name="progress_value_symbol" format="string"/>
+    </declare-styleable>
+</resources>

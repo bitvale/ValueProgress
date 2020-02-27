@@ -12,6 +12,7 @@ import android.text.StaticLayout
 import android.text.TextPaint
 import android.util.AttributeSet
 import android.view.View
+import kotlin.math.min
 
 /**
  * Created by Alexander Kolpakov on 11/23/2018
@@ -133,7 +134,7 @@ class ValueProgress @JvmOverloads constructor(
 
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
         super.onSizeChanged(w, h, oldw, oldh)
-        progressRadius = (Math.min(w, h)) / 2f
+        progressRadius = (min(w, h)) / 2f
         progressArc.bottom = progressRadius * 2f
         progressArc.right = progressRadius * 2f
     }

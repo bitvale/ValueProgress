@@ -15,7 +15,7 @@ Just add ValueProgress view in your layout XML and ValueProgress library in your
 
 ```gradle
 dependencies {
-  implementation 'com.bitvale:valueprogress:1.0.0'
+  implementation 'com.bitvale:valueprogress:1.0.1'
 }
 ```
 

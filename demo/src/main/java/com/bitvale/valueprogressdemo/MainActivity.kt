@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                 val text = s.toString()
                 val value = if (text.isNotEmpty()) text.toFloat() else 0f
 
-                handler.removeCallbacks(workRunnable)
+                workRunnable?.let { handler.removeCallbacks(it) }
                 workRunnable = Runnable {
                     progress_percent.percent = value
                     progress_dollar.percent = value / 2
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                 val text = s.toString()
                 val maxValue = if (text.isNotEmpty()) text.toFloat() else 0f
 
-                handler.removeCallbacks(workRunnable)
+                workRunnable?.let { handler.removeCallbacks(it) }
                 workRunnable = Runnable {
                     progress_percent.progressMaxValue = maxValue
                     progress_dollar.progressMaxValue = maxValue
